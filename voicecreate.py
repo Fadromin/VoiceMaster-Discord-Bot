@@ -11,7 +11,7 @@ import sys
 
 client = discord.Client()
 
-bot = commands.Bot(command_prefix=".")
+bot = commands.Bot(command_prefix="&")
 bot.remove_command("help")
 DISCORD_TOKEN = 'Enter Discord Token here'
 
